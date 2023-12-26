@@ -1,10 +1,10 @@
 .container {
-  background-color: #7fffd4;
   width: 10%;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  text-align: center;
 }
 .bar-icon {
   margin-top: 46px;
