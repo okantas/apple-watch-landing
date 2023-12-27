@@ -1,0 +1,36 @@
+.header-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+.header {
+  display: flex;
+  gap: 120px;
+}
+
+.header-options {
+  list-style: none;
+  display: flex;
+  gap: 90px;
+}
+
+.header-options li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  transition: 0.3s;
+  width: 230px;
+  height: 36px;
+}
+.header-options li a:hover {
+  background-color: #ffffff;
+  color: #c8dce5;
+  padding: 5px 20px;
+  border-radius: 20px;
+  font-size: 20px;
+}
+.right-part {
+  display: flex;
+  gap: 40px;
+}
