@@ -1,0 +1,33 @@
+.product-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+.script {
+  width: 680px;
+}
+
+h1 {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 64px;
+}
+.bold-script {
+  font-weight: bold;
+}
+.product-button {
+  width: 250px;
+  height: 70px;
+  color: #fffafa;
+  background-color: #c8dce5;
+  font-size: 24px;
+  border: 1px solid #ffffff;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.product-button:hover {
+  background-color: #ffffff;
+  color: #c8dce5;
+}
