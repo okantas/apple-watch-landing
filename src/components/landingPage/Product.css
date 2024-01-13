@@ -2,7 +2,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 150px;
 }
 .script {
   width: 680px;
@@ -31,39 +30,72 @@ h1 {
   background-color: #ffffff;
   color: #c8dce5;
 }
-.small-watches-wrapper {
+.watch {
   display: flex;
+  gap: 50px;
+  height: 80vh;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+}
+.watch-img {
+  width: 500px;
+  height: 500px;
+  text-align: center;
+}
+.small-watches-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
   margin-top: 80px;
 }
+
 .small-watches:nth-child(1) {
   background-color: rgba(67, 69, 88, 0.6);
   width: 150px;
   height: 80px;
+  border: 1px white solid;
   border-radius: 10px;
   text-align: center;
+  cursor: pointer;
 }
-
 .small-watches:nth-child(2) {
   background-color: rgba(106, 221, 204, 0.6);
   width: 150px;
   height: 80px;
+  border: 1px white solid;
   border-radius: 10px;
   text-align: center;
+  cursor: pointer;
 }
 .small-watches:nth-child(3) {
   background-color: rgba(249, 205, 204, 0.6);
   width: 150px;
   height: 80px;
+  border: 1px white solid;
   border-radius: 10px;
   text-align: center;
+  cursor: pointer;
+}
+.small-watches:nth-child(4) {
+  background-color: rgba(171, 198, 214, 0.6);
+  width: 150px;
+  height: 80px;
+  border: 1px white solid;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+.small-watches:hover {
+  background-color: rgba(255, 255, 255, 0.2);
 }
 .small-watches-img {
   position: relative;
   bottom: 30px;
   transition: 0.4s;
+  width: 90px;
+  height: 90px;
 }
 .small-watches-img:hover {
   cursor: pointer;
