@@ -31,3 +31,41 @@ h1 {
   background-color: #ffffff;
   color: #c8dce5;
 }
+.small-watches-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 80px;
+}
+.small-watches:nth-child(1) {
+  background-color: rgba(67, 69, 88, 0.6);
+  width: 150px;
+  height: 80px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.small-watches:nth-child(2) {
+  background-color: rgba(106, 221, 204, 0.6);
+  width: 150px;
+  height: 80px;
+  border-radius: 10px;
+  text-align: center;
+}
+.small-watches:nth-child(3) {
+  background-color: rgba(249, 205, 204, 0.6);
+  width: 150px;
+  height: 80px;
+  border-radius: 10px;
+  text-align: center;
+}
+.small-watches-img {
+  position: relative;
+  bottom: 30px;
+  transition: 0.4s;
+}
+.small-watches-img:hover {
+  cursor: pointer;
+  bottom: 50px;
+}
