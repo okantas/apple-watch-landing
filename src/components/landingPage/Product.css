@@ -11,10 +11,9 @@ h1 {
   color: #ffffff;
   font-weight: 400;
   font-size: 64px;
+  font-family: "protest revolution", cursive;
 }
-.bold-script {
-  font-weight: bold;
-}
+
 .product-button {
   width: 250px;
   height: 70px;
